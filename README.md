@@ -11,13 +11,13 @@ To run the Back-end project locally, follow the next steps:
 2. Open the project with your IDE, for example: Visual Studio Code.
 3. Install all the libraries using the following command in your IDE terminal (npm install).
 4. To run the project use the following command (node server.js)
-5. To open the project open the following URL with an explorer: localhost:3001.
-6. Install MongoDB service.
-7. Start MongoDB service.
-8. Install Docker.
-9. Start Docker.
-10. Run MongoDB inside docker with the following command (docker run -p 27017:27017 --name badbank -d mongo)
-11. To run the mongo_test file use the following command (node mongo_test.js)
+5. Install MongoDB service.
+6. Start MongoDB service.
+7. Install Docker.
+8. Start Docker.
+9. Run MongoDB inside docker with the following command (docker run -p 27017:27017 --name badbank -d mongo)
+10. To run the mongo_test file use the following command (node mongo_test.js)
+11. To open the project open the following URL with an explorer: localhost:3001.
 
 ## How to Stop project:
 To stop the project you should type the following command in your IDE terminal: CNTRL + C on Windows or CMD + C on a Mac.
@@ -61,6 +61,9 @@ Some features to add in the future would be to see transaction history, account 
 
 ## Roadmap of future improvements:
 The future improvements to apply in this project is to build more API endpoints.
+
+## Notes:
+- The project was created with node 21.5.0
 
 ## License information:
 MIT License

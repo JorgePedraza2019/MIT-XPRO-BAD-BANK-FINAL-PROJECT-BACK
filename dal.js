@@ -1,5 +1,9 @@
 const { MongoClient } = require('mongodb');
-const url = 'mongodb://localhost:27017';
+// Local mode
+// const url = 'mongodb://localhost:27017';
+
+// Server mode
+const url = 'mongodb://44.196.196.88:27017';
 let db = null;
 
 // Function to connect to the database
